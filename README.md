@@ -38,5 +38,5 @@ Variable names are amended in the following ways:
 * std changed to more descriptive StandardDeviation
 * all non-alphanumeric characters removed
 
-Tidy data set is prepared containing the average of the observations for all fileds in extract by subject by set by activity. Set data is only included to be preserved in the resulting table, however it results no additional grouping as subjects belong to exactly one set category. Tidy data set is written to tidy_data.txt in comma separated format.
+Tidy data set is prepared containing the average of the observations for all fields in extract by subject by set by activity. Field names are changed accordingly by appending Mean to the end. Set data is only included to be preserved in the resulting table, however it results no additional grouping as subjects belong to exactly one set category. Tidy data set is written to tidy_data.txt in comma separated format.
 
