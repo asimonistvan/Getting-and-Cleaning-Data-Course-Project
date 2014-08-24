@@ -117,5 +117,5 @@ Resulting variables are:
 * fftBodyGyroscopeJerkMagnitudeMeanMean
 * fftBodyGyroscopeJerkMagnitudeStandardDeviationMean
 
-Variables represent the mean of the prticular observations by subject by set by activity. For description of the original variables please refer to the original documentation.
+Variables represent the mean of the particular observations by subject by set by activity. For description of the original variables please refer to the original documentation.
 
