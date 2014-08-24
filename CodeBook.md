@@ -4,7 +4,7 @@ Getting and Cleaning Data Course Project
 tidy_data.txt code book
 =================================================
 
-The base data is the Human Activity Recognition Using Smartphones Dataset Version 1.0 ("original data" or "original dataset"). The original dataset is publicly available at http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip. This document is to be read together with the documentation that comes with the original data.
+The base data is the Human Activity Recognition Using Smartphones Dataset Version 1.0 (original data or original dataset). The original dataset is publicly available at http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip. This document is to be read together with the documentation that comes with the original data.
 
 The following files of the original data are processed:
 * activity_labels.txt
@@ -47,75 +47,75 @@ Tidy data set is prepared containing the average of the observations for all fie
 
 Resulting variables are:
 
-"subject"
-"set"
-"activity"
-"timeBodyAccelerometerMeanXMean"
-"timeBodyAccelerometerMeanYMean"
-"timeBodyAccelerometerMeanZMean"
-"timeBodyAccelerometerStandardDeviationXMean"
-"timeBodyAccelerometerStandardDeviationYMean"
-"timeBodyAccelerometerStandardDeviationZMean"
-"timeGravityAccelerometerMeanXMean"
-"timeGravityAccelerometerMeanYMean"
-"timeGravityAccelerometerMeanZMean"
-"timeGravityAccelerometerStandardDeviationXMean"
-"timeGravityAccelerometerStandardDeviationYMean"
-"timeGravityAccelerometerStandardDeviationZMean"
-"timeBodyAccelerometerJerkMeanXMean"
-"timeBodyAccelerometerJerkMeanYMean"
-"timeBodyAccelerometerJerkMeanZMean"
-"timeBodyAccelerometerJerkStandardDeviationXMean"
-"timeBodyAccelerometerJerkStandardDeviationYMean"
-"timeBodyAccelerometerJerkStandardDeviationZMean"
-"timeBodyGyroscopeMeanXMean"
-"timeBodyGyroscopeMeanYMean"
-"timeBodyGyroscopeMeanZMean"
-"timeBodyGyroscopeStandardDeviationXMean"
-"timeBodyGyroscopeStandardDeviationYMean"
-"timeBodyGyroscopeStandardDeviationZMean"
-"timeBodyGyroscopeJerkMeanXMean"
-"timeBodyGyroscopeJerkMeanYMean"
-"timeBodyGyroscopeJerkMeanZMean"
-"timeBodyGyroscopeJerkStandardDeviationXMean"
-"timeBodyGyroscopeJerkStandardDeviationYMean"
-"timeBodyGyroscopeJerkStandardDeviationZMean"
-"timeBodyAccelerometerMagnitudeMeanMean"
-"timeBodyAccelerometerMagnitudeStandardDeviationMean"
-"timeGravityAccelerometerMagnitudeMeanMean"
-"timeGravityAccelerometerMagnitudeStandardDeviationMean"
-"timeBodyAccelerometerJerkMagnitudeMeanMean"
-"timeBodyAccelerometerJerkMagnitudeStandardDeviationMean"
-"timeBodyGyroscopeMagnitudeMeanMean"
-"timeBodyGyroscopeMagnitudeStandardDeviationMean"
-"timeBodyGyroscopeJerkMagnitudeMeanMean"
-"timeBodyGyroscopeJerkMagnitudeStandardDeviationMean"
-"fftBodyAccelerometerMeanXMean"
-"fftBodyAccelerometerMeanYMean"
-"fftBodyAccelerometerMeanZMean"
-"fftBodyAccelerometerStandardDeviationXMean"
-"fftBodyAccelerometerStandardDeviationYMean"
-"fftBodyAccelerometerStandardDeviationZMean"
-"fftBodyAccelerometerJerkMeanXMean"
-"fftBodyAccelerometerJerkMeanYMean"
-"fftBodyAccelerometerJerkMeanZMean"
-"fftBodyAccelerometerJerkStandardDeviationXMean"
-"fftBodyAccelerometerJerkStandardDeviationYMean"
-"fftBodyAccelerometerJerkStandardDeviationZMean"
-"fftBodyGyroscopeMeanXMean"
-"fftBodyGyroscopeMeanYMean"
-"fftBodyGyroscopeMeanZMean"
-"fftBodyGyroscopeStandardDeviationXMean"
-"fftBodyGyroscopeStandardDeviationYMean"
-"fftBodyGyroscopeStandardDeviationZMean"
-"fftBodyAccelerometerMagnitudeMeanMean"
-"fftBodyAccelerometerMagnitudeStandardDeviationMean"
-"fftBodyAccelerometerJerkMagnitudeMeanMean"
-"fftBodyAccelerometerJerkMagnitudeStandardDeviationMean"
-"fftBodyGyroscopeMagnitudeMeanMean"
-"fftBodyGyroscopeMagnitudeStandardDeviationMean"
-"fftBodyGyroscopeJerkMagnitudeMeanMean"
-"fftBodyGyroscopeJerkMagnitudeStandardDeviationMean"
+* subject
+* set
+* activity
+* timeBodyAccelerometerMeanXMean
+* timeBodyAccelerometerMeanYMean
+* timeBodyAccelerometerMeanZMean
+* timeBodyAccelerometerStandardDeviationXMean
+* timeBodyAccelerometerStandardDeviationYMean
+* timeBodyAccelerometerStandardDeviationZMean
+* timeGravityAccelerometerMeanXMean
+* timeGravityAccelerometerMeanYMean
+* timeGravityAccelerometerMeanZMean
+* timeGravityAccelerometerStandardDeviationXMean
+* timeGravityAccelerometerStandardDeviationYMean
+* timeGravityAccelerometerStandardDeviationZMean
+* timeBodyAccelerometerJerkMeanXMean
+* timeBodyAccelerometerJerkMeanYMean
+* timeBodyAccelerometerJerkMeanZMean
+* timeBodyAccelerometerJerkStandardDeviationXMean
+* timeBodyAccelerometerJerkStandardDeviationYMean
+* timeBodyAccelerometerJerkStandardDeviationZMean
+* timeBodyGyroscopeMeanXMean
+* timeBodyGyroscopeMeanYMean
+* timeBodyGyroscopeMeanZMean
+* timeBodyGyroscopeStandardDeviationXMean
+* timeBodyGyroscopeStandardDeviationYMean
+* timeBodyGyroscopeStandardDeviationZMean
+* timeBodyGyroscopeJerkMeanXMean
+* timeBodyGyroscopeJerkMeanYMean
+* timeBodyGyroscopeJerkMeanZMean
+* timeBodyGyroscopeJerkStandardDeviationXMean
+* timeBodyGyroscopeJerkStandardDeviationYMean
+* timeBodyGyroscopeJerkStandardDeviationZMean
+* timeBodyAccelerometerMagnitudeMeanMean
+* timeBodyAccelerometerMagnitudeStandardDeviationMean
+* timeGravityAccelerometerMagnitudeMeanMean
+* timeGravityAccelerometerMagnitudeStandardDeviationMean
+* timeBodyAccelerometerJerkMagnitudeMeanMean
+* timeBodyAccelerometerJerkMagnitudeStandardDeviationMean
+* timeBodyGyroscopeMagnitudeMeanMean
+* timeBodyGyroscopeMagnitudeStandardDeviationMean
+* timeBodyGyroscopeJerkMagnitudeMeanMean
+* timeBodyGyroscopeJerkMagnitudeStandardDeviationMean
+* fftBodyAccelerometerMeanXMean
+* fftBodyAccelerometerMeanYMean
+* fftBodyAccelerometerMeanZMean
+* fftBodyAccelerometerStandardDeviationXMean
+* fftBodyAccelerometerStandardDeviationYMean
+* fftBodyAccelerometerStandardDeviationZMean
+* fftBodyAccelerometerJerkMeanXMean
+* fftBodyAccelerometerJerkMeanYMean
+* fftBodyAccelerometerJerkMeanZMean
+* fftBodyAccelerometerJerkStandardDeviationXMean
+* fftBodyAccelerometerJerkStandardDeviationYMean
+* fftBodyAccelerometerJerkStandardDeviationZMean
+* fftBodyGyroscopeMeanXMean
+* fftBodyGyroscopeMeanYMean
+* fftBodyGyroscopeMeanZMean
+* fftBodyGyroscopeStandardDeviationXMean
+* fftBodyGyroscopeStandardDeviationYMean
+* fftBodyGyroscopeStandardDeviationZMean
+* fftBodyAccelerometerMagnitudeMeanMean
+* fftBodyAccelerometerMagnitudeStandardDeviationMean
+* fftBodyAccelerometerJerkMagnitudeMeanMean
+* fftBodyAccelerometerJerkMagnitudeStandardDeviationMean
+* fftBodyGyroscopeMagnitudeMeanMean
+* fftBodyGyroscopeMagnitudeStandardDeviationMean
+* fftBodyGyroscopeJerkMagnitudeMeanMean
+* fftBodyGyroscopeJerkMagnitudeStandardDeviationMean
 
 Variables represent the mean of the prticular observations by subject by set by activity. For description of the original variables please refer to the original documentation.
 
